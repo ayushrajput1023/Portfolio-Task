@@ -1,0 +1,105 @@
+body{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+h2{
+  color: #fc8210;
+}
+b{
+  margin-left: 30px;
+  font-size: 25px;
+}
+hr{
+  width: 8%;;
+  border:dotted 10px;
+  border-bottom: none;
+}
+.maleimg{
+  font-size: 20rem;
+  margin-bottom: 40px;
+}
+.top-container{
+  background-color: #f6eedf;
+}
+.insidetop1{
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+.navitem{
+  height: 80px;
+}
+.navlink{
+  margin:  0 15px;
+  font-size: 20px;
+}
+.navlink:hover{
+  font-weight: bold;
+}
+.profile{
+  width: 50%;
+  margin:auto;
+}
+.skill-row{
+  width: 50%;
+  margin: 60px auto 30px auto;
+  text-align: left;
+}
+.marpad{
+  padding: 2% 0;
+}
+.img1{
+  height:120px;
+  width: 120px;
+  background-color: #ffd8a6;
+  border-radius: 50%;
+}
+.img2{
+  height: 120px;
+  width: 120px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+
+.imgg{
+  height: 120px;
+  width: 120px;
+  float: right;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.telephone{
+  font-size: 50px;
+}
+
+.lastbut{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+.lastbut:hover{
+  color: red;
+}
+
+
+
+.bottom-container{
+  background-color:#f6eedf;
+  padding: 50px 0 20px;
+}
+.footericon{
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  color: black;
+}

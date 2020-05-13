@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+
+    <!-- Top div -->
+    <div class="top-container" id="home">
+      <nav class="navbar navbar-expand-lg navbar-light navitem">
+  <a class="navbar-brand" href="#"><b>Portfolio</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+      <a onmousedown="sound()" class="nav-item nav-link navlink" href="#home">Home</a>
+      <a onmousedown="sound()" class="nav-item nav-link navlink" href="#about">About</a>
+      <a onmousedown="sound()" class="nav-item nav-link navlink" href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row insidetop1">
+    <div class="col-lg-6 ">
+      <h1 onmouseover="sum()">Ayush is the best boy in the world and doing some good work</h1>
+    </div>
+    <div class="col-lg-6 insidetop2">
+      <i class="fas fa-male maleimg"></i>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+    <!-- Middle div-->
+    <div class="middle-container">
+    <div class="profile marpad">
+      <img class="img1" src="images/avatar.png" alt="Image 1">
+      <br><br>
+      <h2 onmouseover="name()">Hello.</h2>
+      <p>To work in a professional environment where I can contribute myself and enrich my skills according to the
+latest technologies and to work towards achieving the organizational goals.</p>
+    </div>
+    <hr>
+    <div class="skills marpad" id="about">
+      <h2>Skills.</h2>
+      <div class="skill-row" onmouseover="well()">
+        <img class="img2" src="images/web-development.png" alt="Image 2">
+        <h3>Web Development</h3>
+        <p>Doing some work toward Web Development.Created a Blog website where owner can create blogs and publish it on the internet so that everyone can read it.</p>
+      </div>
+      <div class="skill-row">
+        <img class="img2" src="images/web.png" alt="Image 3">
+        <h3>Digital Marketing</h3>
+        <p>The Fundamentals of Digital Marketing,took the online course of "basics of digital marketing" from Google Digital Unlocked platform.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me marpad" id="contact">
+      <h2>Get In Touch</h2>
+      <h3>Connect with me using Social Media or through Mobile.</h3>
+      <p>Click on the image given below to contact me</p>
+      <a  onmousedown="fadout()" class="lastbut" href="https://www.gmail.com/">Contact Me</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/"><i class="fab fa-linkedin footericon"></i></a>
+    <a class="footer-link" href="https://twitter.com/"><i class="fab fa-twitter-square footericon"></i></a>
+    <a class="footer-link" href="https://facebook.com/"><i class="fab fa-facebook-square footericon"></i></a>
+    <p>© AYUSH SINGH</p>
+  </div>
+
+
+  </body>
+  <footer><script src="index.js" charset="utf-8"></script></footer>
+</html>
